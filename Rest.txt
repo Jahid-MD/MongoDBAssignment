@@ -1,0 +1,700 @@
+DATA (Reference Answer from the bottom)
+
+
+db.rest.insertMany([
+{
+"address": {
+
+"building": "7078",
+
+"coord": [ -73.865077, 40.849947 ],
+
+"street": "The Mall Road Mussorrie",
+
+"zipcode": "10788"
+
+},
+
+"cuisine": "Restaurant and Cafe",
+
+"grades": [
+
+{ "date": { "$date": 1393804800000 }, "grade": "A", "score": 78 },
+
+{ "date": { "$date": 1378857600000 }, "grade": "A", "score": 86 },
+
+{ "date": { "$date": 1358985600000 }, "grade": "A", "score": 47 },
+
+{ "date": { "$date": 1322006400000 }, "grade": "A", "score": 78 },
+
+{ "date": { "$date": 1299715200000 }, "grade": "B", "score": 84 }
+
+],
+
+"name": "Paprika Restro and Cafe",
+
+"restaurant_id": "30075455"
+},
+{
+"address": {
+
+"building": "287",
+
+"coord": [ -73.878077, 40.868447 ],
+
+"street": "Meera Road Mussorrie",
+
+"zipcode": "10487"
+
+},
+
+"cuisine": "Restaurant",
+
+"grades": [
+
+{ "date": { "$date": 1393804800000 }, "grade": "A", "score": 72 },
+
+{ "date": { "$date": 1378857600000 }, "grade": "A", "score": 75 },
+
+{ "date": { "$date": 1358985600000 }, "grade": "A", "score": 88 },
+
+{ "date": { "$date": 1322006400000 }, "grade": "A", "score": 77 },
+
+{ "date": { "$date": 1299715200000 }, "grade": "B", "score": 94 }
+
+],
+
+"name": "Adam Restaurant",
+
+"restaurant_id": "30075789"
+},
+{
+"address": {
+
+"building": "1832",
+
+"coord": [ -73.878087, 40.848937 ],
+
+"street": "Mary Road Mussorrie",
+
+"zipcode": "104678"
+
+},
+
+"cuisine": "Bakery",
+
+"grades": [
+
+{ "date": { "$date": 1393804800000 }, "grade": "A", "score": 89 },
+
+{ "date": { "$date": 1378857600000 }, "grade": "A", "score": 95 },
+
+{ "date": { "$date": 1358985600000 }, "grade": "A", "score": 79 },
+
+{ "date": { "$date": 1322006400000 }, "grade": "A", "score": 83 },
+
+{ "date": { "$date": 1299715200000 }, "grade": "B", "score": 84 }
+
+],
+
+"name": "The Bake Shop",
+
+"restaurant_id": "30075789"
+},
+{
+"address": {
+
+"building": "892",
+
+"coord": [ -73.857887, 40.847947 ],
+
+"street": "KCL Road Mussorrie",
+
+"zipcode": "11478"
+
+},
+
+"cuisine": "Restaurant",
+
+"grades": [
+
+{ "date": { "$date": 1393804800000 }, "grade": "A", "score": 89 },
+
+{ "date": { "$date": 1378857600000 }, "grade": "A", "score": 87 },
+
+{ "date": { "$date": 1358985600000 }, "grade": "A", "score": 72 },
+
+{ "date": { "$date": 1322006400000 }, "grade": "A", "score": 78 },
+
+{ "date": { "$date": 1299715200000 }, "grade": "B", "score": 64 }
+
+],
+
+"name": "The Dilli cafe",
+
+"restaurant_id": "30075558"
+},
+{
+"address": {
+
+"building": "7782",
+
+"coord": [ -73.889187, 40.848947 ],
+
+"street": "Azad Circle Mussorrie",
+
+"zipcode": "10487"
+
+},
+
+"cuisine": "Restaurant",
+
+"grades": [
+
+{ "date": { "$date": 1393804800000 }, "grade": "A", "score": 98 },
+
+{ "date": { "$date": 1378857600000 }, "grade": "A", "score": 82 },
+
+{ "date": { "$date": 1358985600000 }, "grade": "A", "score": 89 },
+
+{ "date": { "$date": 1322006400000 }, "grade": "A", "score": 83 },
+
+{ "date": { "$date": 1299715200000 }, "grade": "B", "score": 94 }
+
+],
+
+"name": "Shahi Kabab",
+
+"restaurant_id": "30071151"
+},
+{
+"address": {
+
+"building": "7102",
+
+"coord": [ -73.865077, 40.849947 ],
+
+"street": "Bhagat Singh Road Mussorrie",
+
+"zipcode": "17868"
+
+},
+
+"cuisine": "Cafe",
+
+"grades": [
+
+{ "date": { "$date": 1393804800000 }, "grade": "A", "score": 72 },
+
+{ "date": { "$date": 1378857600000 }, "grade": "A", "score": 86 },
+
+{ "date": { "$date": 1358985600000 }, "grade": "A", "score": 40 },
+
+{ "date": { "$date": 1322006400000 }, "grade": "A", "score": 43 },
+
+{ "date": { "$date": 1299715200000 }, "grade": "B", "score": 84 }
+
+],
+
+"name": "Asim Cafe",
+
+"restaurant_id": "30095455"
+},
+{
+"address": {
+
+"building": "2887",
+
+"coord": [ -73.899077, 40.868447 ],
+
+"street": "St John Road Mussorrie",
+
+"zipcode": "10489"
+
+},
+
+"cuisine": "Restaurant",
+
+"grades": [
+
+{ "date": { "$date": 1393804800000 }, "grade": "A", "score": 72 },
+
+{ "date": { "$date": 1378857600000 }, "grade": "A", "score": 85 },
+
+{ "date": { "$date": 1358985600000 }, "grade": "A", "score": 88 },
+
+{ "date": { "$date": 1322006400000 }, "grade": "A", "score": 79 },
+
+{ "date": { "$date": 1299715200000 }, "grade": "B", "score": 94 }
+
+],
+
+"name": "The Taaza Restaurant",
+
+"restaurant_id": "30075789"
+},
+{
+"address": {
+
+"building": "1832",
+
+"coord": [ -73.878087, 40.848937 ],
+
+"street": "John Road Mussorrie",
+
+"zipcode": "104678"
+
+},
+
+"cuisine": "Bakery",
+
+"grades": [
+
+{ "date": { "$date": 1393804800000 }, "grade": "A", "score": 85 },
+
+{ "date": { "$date": 1378857600000 }, "grade": "A", "score": 75 },
+
+{ "date": { "$date": 1358985600000 }, "grade": "A", "score": 89 },
+
+{ "date": { "$date": 1322006400000 }, "grade": "A", "score": 83 },
+
+{ "date": { "$date": 1299715200000 }, "grade": "B", "score": 84 }
+
+],
+
+"name": "Morris Bake Shop",
+
+"restaurant_id": "30075769"
+},
+{
+"address": {
+
+"building": "872",
+
+"coord": [ -73.877187, 40.747947 ],
+
+"street": "BL Road Mussorrie",
+
+"zipcode": "10481"
+
+},
+
+"cuisine": "Restaurant",
+
+"grades": [
+
+{ "date": { "$date": 1393804800000 }, "grade": "A", "score": 79 },
+
+{ "date": { "$date": 1378857600000 }, "grade": "A", "score": 57 },
+
+{ "date": { "$date": 1358985600000 }, "grade": "A", "score": 82 },
+
+{ "date": { "$date": 1322006400000 }, "grade": "A", "score": 58 },
+
+{ "date": { "$date": 1299715200000 }, "grade": "B", "score": 64 }
+
+],
+
+"name": "The town cafe",
+
+"restaurant_id": "30077668"
+},
+{
+"address": {
+
+"building": "772",
+
+"coord": [ -73.857177, 40.878747 ],
+
+"street": "Nehru Circle Mussorrie",
+
+"zipcode": "10478"
+
+},
+
+"cuisine": "Restaurant",
+
+"grades": [
+
+{ "date": { "$date": 1393804800000 }, "grade": "A", "score": 81 },
+
+{ "date": { "$date": 1378857600000 }, "grade": "A", "score": 92 },
+
+{ "date": { "$date": 1358985600000 }, "grade": "A", "score": 89 },
+
+{ "date": { "$date": 1322006400000 }, "grade": "A", "score": 88 },
+
+{ "date": { "$date": 1299715200000 }, "grade": "B", "score": 94 }
+
+],
+
+"name": "Abid Kabab",
+
+"restaurant_id": "30075666"
+},
+{
+"address": {
+
+"building": "78",
+
+"coord": [ -73.865077, 40.849947 ],
+
+"street": "The Main Road Mussorrie",
+
+"zipcode": "10787"
+
+},
+
+"cuisine": "Restaurant and Cafe",
+
+"grades": [
+
+{ "date": { "$date": 1393804800000 }, "grade": "A", "score": 78 },
+
+{ "date": { "$date": 1378857600000 }, "grade": "A", "score": 86 },
+
+{ "date": { "$date": 1358985600000 }, "grade": "A", "score": 47 },
+
+{ "date": { "$date": 1322006400000 }, "grade": "A", "score": 78 },
+
+{ "date": { "$date": 1299715200000 }, "grade": "B", "score": 84 }
+
+],
+
+"name": "Paprika Restro and Cafe",
+
+"restaurant_id": "30085478"
+},
+{
+"address": {
+
+"building": "289",
+
+"coord": [ -73.878877, 40.788447 ],
+
+"street": "Syed Road Mussorrie",
+
+"zipcode": "10489"
+
+},
+
+"cuisine": "Restaurant",
+
+"grades": [
+
+{ "date": { "$date": 1393804800000 }, "grade": "A", "score": 72 },
+
+{ "date": { "$date": 1378857600000 }, "grade": "A", "score": 85 },
+
+{ "date": { "$date": 1358985600000 }, "grade": "A", "score": 88 },
+
+{ "date": { "$date": 1322006400000 }, "grade": "A", "score": 17 },
+
+{ "date": { "$date": 1299715200000 }, "grade": "B", "score": 94 }
+
+],
+
+"name": "Andy Restaurant",
+
+"restaurant_id": "30075789"
+},
+{
+"address": {
+
+"building": "1836",
+
+"coord": [ -73.898087, 40.868937 ],
+
+"street": "Mary Road Mussorrie",
+
+"zipcode": "104788"
+
+},
+
+"cuisine": "Bakery",
+
+"grades": [
+
+{ "date": { "$date": 1393804800000 }, "grade": "A", "score": 89 },
+
+{ "date": { "$date": 1378857600000 }, "grade": "A", "score": 75 },
+
+{ "date": { "$date": 1358985600000 }, "grade": "A", "score": 79 },
+
+{ "date": { "$date": 1322006400000 }, "grade": "A", "score": 73 },
+
+{ "date": { "$date": 1299715200000 }, "grade": "B", "score": 84 }
+
+],
+
+"name": "The Bake Shop",
+
+"restaurant_id": "30078789"
+},
+{
+"address": {
+
+"building": "87",
+
+"coord": [ -73.889887, 40.847947 ],
+
+"street": "KCPL Road Mussorrie",
+
+"zipcode": "11477"
+
+},
+
+"cuisine": "Restaurant",
+
+"grades": [
+
+{ "date": { "$date": 1393804800000 }, "grade": "A", "score": 79 },
+
+{ "date": { "$date": 1378857600000 }, "grade": "A", "score": 87 },
+
+{ "date": { "$date": 1358985600000 }, "grade": "A", "score": 82 },
+
+{ "date": { "$date": 1322006400000 }, "grade": "A", "score": 78 },
+
+{ "date": { "$date": 1299715200000 }, "grade": "B", "score": 84 }
+
+],
+
+"name": "The Armaan cafe",
+
+"restaurant_id": "30075758"
+},
+{
+"address": {
+
+"building": "82",
+
+"coord": [ -73.889847, 40.841447 ],
+
+"street": "Gandhi Circle Mussorrie",
+
+"zipcode": "10487"
+
+},
+
+"cuisine": "Restaurant",
+
+"grades": [
+
+{ "date": { "$date": 1393804800000 }, "grade": "A", "score": 98 },
+
+{ "date": { "$date": 1378857600000 }, "grade": "A", "score": 72 },
+
+{ "date": { "$date": 1358985600000 }, "grade": "A", "score": 79 },
+
+{ "date": { "$date": 1322006400000 }, "grade": "A", "score": 83 },
+
+{ "date": { "$date": 1299715200000 }, "grade": "B", "score": 94 }
+
+],
+
+"name": "Shami Kabab",
+
+"restaurant_id": "30077891"
+},
+{
+"address": {
+
+"building": "72",
+
+"coord": [ -73.864177, 40.847747 ],
+
+"street": "King Road Mussorrie",
+
+"zipcode": "17878"
+
+},
+
+"cuisine": "Cafe",
+
+"grades": [
+
+{ "date": { "$date": 1393804800000 }, "grade": "A", "score": 92 },
+
+{ "date": { "$date": 1378857600000 }, "grade": "A", "score": 86 },
+
+{ "date": { "$date": 1358985600000 }, "grade": "A", "score": 78 },
+
+{ "date": { "$date": 1322006400000 }, "grade": "A", "score": 43 },
+
+{ "date": { "$date": 1299715200000 }, "grade": "B", "score": 84 }
+
+],
+
+"name": "Cafeteria bangalore",
+
+"restaurant_id": "30078455"
+},
+{
+"address": {
+
+"building": "2887",
+
+"coord": [ -73.899077, 40.868447 ],
+
+"street": "St John Road Mussorrie",
+
+"zipcode": "10489"
+
+},
+
+"cuisine": "Restaurant",
+
+"grades": [
+
+{ "date": { "$date": 1393804800000 }, "grade": "A", "score": 72 },
+
+{ "date": { "$date": 1378857600000 }, "grade": "A", "score": 85 },
+
+{ "date": { "$date": 1358985600000 }, "grade": "A", "score": 88 },
+
+{ "date": { "$date": 1322006400000 }, "grade": "A", "score": 79 },
+
+{ "date": { "$date": 1299715200000 }, "grade": "B", "score": 94 }
+
+],
+
+"name": "The Taaza Restaurant",
+
+"restaurant_id": "30075789"
+},
+{
+"address": {
+
+"building": "1832",
+
+"coord": [ -73.878087, 40.848937 ],
+
+"street": "John Road Mussorrie",
+
+"zipcode": "104678"
+
+},
+
+"cuisine": "Bakery",
+
+"grades": [
+
+{ "date": { "$date": 1393804800000 }, "grade": "A", "score": 85 },
+
+{ "date": { "$date": 1378857600000 }, "grade": "A", "score": 75 },
+
+{ "date": { "$date": 1358985600000 }, "grade": "A", "score": 89 },
+
+{ "date": { "$date": 1322006400000 }, "grade": "A", "score": 83 },
+
+{ "date": { "$date": 1299715200000 }, "grade": "B", "score": 84 }
+
+],
+
+"name": "Harris Bake Shop",
+
+"restaurant_id": "30075769"
+},
+{
+"address": {
+
+"building": "872",
+
+"coord": [ -73.877187, 40.747947 ],
+
+"street": "BL Road Mussorrie",
+
+"zipcode": "10481"
+
+},
+
+"cuisine": "Restaurant",
+
+"grades": [
+
+{ "date": { "$date": 1393804800000 }, "grade": "A", "score": 79 },
+
+{ "date": { "$date": 1378857600000 }, "grade": "A", "score": 57 },
+
+{ "date": { "$date": 1358985600000 }, "grade": "A", "score": 82 },
+
+{ "date": { "$date": 1322006400000 }, "grade": "A", "score": 58 },
+
+{ "date": { "$date": 1299715200000 }, "grade": "B", "score": 64 }
+
+],
+
+"name": "Cafeteria cafe",
+
+"restaurant_id": "30077668"
+},
+{
+"address": {
+
+"building": "772",
+
+"coord": [ -73.857177, 40.878747 ],
+
+"street": "Nehru Circle Mussorrie",
+
+"zipcode": "10478"
+
+},
+
+"cuisine": "Restaurant",
+
+"grades": [
+
+{ "date": { "$date": 1393804800000 }, "grade": "A", "score": 81 },
+
+{ "date": { "$date": 1378857600000 }, "grade": "A", "score": 82 },
+
+{ "date": { "$date": 1358985600000 }, "grade": "A", "score": 89 },
+
+{ "date": { "$date": 1322006400000 }, "grade": "A", "score": 78 },
+
+{ "date": { "$date": 1299715200000 }, "grade": "B", "score": 94 }
+
+],
+
+"name": "Abid Kabab",
+
+"restaurant_id": "30075678"
+}
+
+])
+
+
+				------------------------ANSWERS----------------------
+
+1.  Write a MongoDB query to display the fields restaurant_id, name, and zip code but exclude the field _id for all the documents in the collection restaurant.?
+
+soln:    db.rest.aggregate( [ { $project : { _id: 0, name: 1 , "restaurant_id": 1, "address.zipcode": 1,} } ] )
+
+2. Write a MongoDB query to arrange the name of the restaurants in ascending order along with all the columns.
+
+soln:  db.rest.find().sort( { "name": 1 } )
+
+3. Write a MongoDB query to display the first 5 restaurant in ascending order of name field.
+
+soln: db.rest.find().limit(5).sort({"name":1})
+
+4) Write a MongoDB query to display the next 5 restaurants after skipping first 5.
+
+soln : db.rest.find().limit(5).skip(5).sort({"name":1})
+
+5) Write a MongoDB query to find the restaurants who achieved a score more than 90.
+
+soln: db.rest.find( { "grades.score": { $gt: 90 } } )
+
+6) Write a MongoDB query to find the restaurants that achieved a score, more than 80 but less than 100.
+
+soln: db.rest.find( { "grades.score": { $gt: 80 ,$lt:90} } )
+
+7)Write a MongoDB query to find the restaurant name, longitude and latitude and cuisine for those restaurants which contain 'Caf' as first three letters of its name.
+
+soln: db.rest.find( { "name": { $regex: /^Caf/ } } )
+
+8) Write a MongoDb query to update grade B to A in all documents.
+
